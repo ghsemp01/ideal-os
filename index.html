@@ -3,28 +3,62 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ideal OS</title>
-
+	<link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-	<h1>Operating System</h1>
-	<h3>Basic Features</h3>
-	<ul>
-		<li>Process Scheduling</li>
-		<li>Deadlocks</li>
-		<li>Input/Output</li>
-		<li>Multimedia</li>
-		<li>File System</li>
-		<li>Ram</li>
-		<li>Hard disk</li>
-	</ul>
-	<h3>UI</h3>
-	<ul>
-		<li>Flash screen</li>
-		<li>Login</li>
-		<li>Desktop</li>
-		<li>Window/Dialog</li>
-		<li>Icons</li>
-	</ul>
+
+	<h1>Basic Features</h1>
+	<h3>Process Scheduling</h3>
+	<p><strong>Enhance RR</strong></p>
+	<p>
+		This is an enhance round robin algorithm for real time processing of CPU request. It slices the process into much smaller pieces
+		 and process each part of it, not in milliseconds but in nanoseconds creating an illusion that all request are process simultaneously 
+	</p>
+	<p><strong>Hybrid scheduling</strong></p>
+	<p>
+		In case of very limited CPU power, the OS will not use the Enhance RR. The OS will use the Hybrid scheduling algorithm which automatically 
+		detects the best algorithm that will cater the needs of the request. It will combine two or more scheduling algorithms like FCFS,
+		SJF, RR and will assigned the necessary priority base on process types like system process, user process etc...
+	</p>
+	<h3>Deadlocks</h3>
+	<p><strong>Starveless algorithm</strong></p>
+	<p>
+		Enhance RR will not produce deadlocks, resources are never fully taken by the process, rather it just took a part of it at a time.
+		  Because of this, any other process will have the ability to request for that resources and never starve.
+	</p>
+	<h3>IO</h3>
+	<p><strong>Handless control</strong></p>
+	<p>
+		The OS can be fully operated using voice command. 
+	</p>
+	<p><strong>Facial Recognition / Voice recognition login</strong></p>
+	<p>
+		Login through the OS by scanning your face or by saying a certain phrase.
+	</p>
+	<p><strong>Voice to text </strong></p>
+	<p>
+		Any time your cursor place on text fields like notepad, word documents, web address bar, google search, the OS will detects
+		that you want to type something so it will convert your voice into text only if you activate this features. External voices will
+		not be process because the OS will smartly know the distance of the actual user.
+	</p>
+	<p><strong>Screen projection</strong></p>
+	<p>
+		The OS will have a built in projector that can be used to project anything that is on your screen. 
+	</p>
+	<h3>Multimedia</h3>
+	<p><strong>Global Codec</strong></p>
+	<p><strong>MMEG compression</strong></p>
+		<h3>Multimedia</h3>
+	<p><strong>Global Codec</strong></p>
+	<p><strong>MMEG compression</strong></p>
+
+	<h3>Hard Disk</h3>
+	<p><strong>Auto Defragmentation</strong></p>
 
 </body>
 </html>
+
+
+	
+		
+	
